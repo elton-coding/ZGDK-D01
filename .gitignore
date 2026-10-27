@@ -1,0 +1,40 @@
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.local/
+.cache/
+research/
+
+# Competition datasets, weights, generated artifacts and logs
+/data/*
+!/data/README.md
+/models/
+/runs/
+/exports/
+/artifacts/*
+!/artifacts/README.md
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.gguf
+*.log
+
+# Python and editor caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
