@@ -1,0 +1,21 @@
+{
+  "purpose": "Metadata research only; not an official model selection",
+  "checked_on_local_date": "2026-10-28",
+  "competition_approved_model": null,
+  "candidates": [
+    {
+      "model_id": "Qwen/Qwen3.5-27B",
+      "revision_at_inspection": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "publisher": "Qwen",
+      "source": "https://huggingface.co/Qwen/Qwen3.5-27B",
+      "metadata_api": "https://huggingface.co/api/models/Qwen/Qwen3.5-27B",
+      "architecture": "Qwen3_5ForConditionalGeneration",
+      "model_type": "qwen3_5",
+      "parameters_reported_by_registry": 27781427952,
+      "quantization_config_in_original_config": null,
+      "competition_approved": false,
+      "weights_downloaded": false,
+      "note": "A public Qwen 27B model exists, but the contest wording does not establish this version. Architecture includes multimodal/hybrid components; generic causal-LM loading and quantization compatibility must not be assumed."
+    }
+  ]
+}

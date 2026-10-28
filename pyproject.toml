@@ -1,0 +1,9 @@
+[project]
+name = "zgdk-d01"
+version = "0.1.0"
+description = "D01 evidence-grounded ontology annotation; G0 preparation tools"
+requires-python = ">=3.11,<3.12"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

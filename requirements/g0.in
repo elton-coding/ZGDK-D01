@@ -1,0 +1,7 @@
+# G0 Windows/Python 3.11 environment only; final model backend is not selected.
+torch==2.9.1
+numpy>=2.2,<3
+pandas>=2.3,<4
+pydantic>=2.12,<3
+jsonschema>=4.25,<5
+pytest>=8.4,<10

@@ -1,0 +1,4 @@
+{"source_id":"fixture-a","text":"合成业务甲：2026年10月1日记录值为100mg。","case_id":"synthetic-case-a"}
+{"source_id":"fixture-b","text":"合成业务甲：2026年10月2日记录值为0.1g。","case_id":"synthetic-case-a"}
+{"source_id":"fixture-c","text":"合成业务乙：2026年10月1日记录值为200mg。","case_id":"synthetic-case-b"}
+{"source_id":"fixture-d","text":"合成业务甲：2026年10月1日记录值为100mg。","case_id":"synthetic-case-a"}

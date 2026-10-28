@@ -16,6 +16,8 @@ research/
 /models/
 /runs/
 /exports/
+/results/*
+!/results/README.md
 /artifacts/*
 !/artifacts/README.md
 *.safetensors

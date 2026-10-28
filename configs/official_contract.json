@@ -1,0 +1,56 @@
+{
+  "contract_version": 1,
+  "checked_on_local_date": "2026-10-28",
+  "timezone_for_this_record": "Asia/Shanghai",
+  "official_page": "https://wangxinbei.taiji.com.cn/track/34",
+  "verification_method": "Rendered official page, including download access message",
+  "deadlines": {
+    "registration_date": "2026-11-15",
+    "submission_date": "2026-12-15",
+    "exact_cutoff_time": null,
+    "official_cutoff_timezone": null
+  },
+  "dataset": {
+    "listed_filename": "面向开放数据的领域本体智能化标注技术-初赛数据集.zip",
+    "access": "Registered and approved teams for D01; login required",
+    "download_attempt_result": "请先登录后再下载",
+    "local_received": false,
+    "raw_directory": "data/raw",
+    "adapter": {
+      "format": null,
+      "records_key": null,
+      "id_field": null,
+      "text_field": null,
+      "business_group_definition": null
+    }
+  },
+  "model": {
+    "official_wording": "国内开源大模型基座千问27B",
+    "model_id": null,
+    "revision": null,
+    "tokenizer_revision": null,
+    "quantization_allowed": null,
+    "adapter_training_allowed": null,
+    "evaluation_hardware": null,
+    "evaluation_time_limit": null,
+    "status": "UNCONFIRMED"
+  },
+  "output_contract": {
+    "official_schema_received": false,
+    "official_scoring_program_received": false,
+    "task_1_internal_weights": null,
+    "task_2_internal_weights": null,
+    "semantic_match_threshold": null,
+    "unresolved": [
+      "typecode versus typeCode and spaces in sample keys",
+      "Conflict tier-2 exact trigger and uncreated property reference",
+      "Foreign-key fields, business IDs and synthesized IDs",
+      "Task-2 instance and time-series file packaging",
+      "Timestamp precision, unknown time and overlapping intervals",
+      "values versus statusPairs and simultaneous contexts",
+      "Cross-source causal explanation scoring",
+      "Code permutation, duplicate records and empty-set scoring",
+      "Submission filenames, size limits and offline deployment environment"
+    ]
+  }
+}

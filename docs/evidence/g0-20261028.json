@@ -1,0 +1,65 @@
+{
+  "checked_on_local_date": "2026-10-28",
+  "scope": "G0 preparation tools and small GPU kernels only",
+  "overall_status": "PARTIAL_BLOCKED",
+  "official_model_tested": false,
+  "official_score": null,
+  "environment": {
+    "python": "3.11.15",
+    "torch": "2.9.1+cu128",
+    "cuda_runtime": "12.8",
+    "isolated": true,
+    "gpu": "NVIDIA GeForce RTX 5090 D",
+    "native_arch": "sm_120",
+    "matmul_shape": [
+      1024,
+      1024
+    ],
+    "matmul_max_absolute_error": 7.01164728535153e-09,
+    "bf16_attention": "PASS",
+    "bf16_backward_adamw": "PASS",
+    "warnings": []
+  },
+  "tests": {
+    "count": 16,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "commands": [
+    {
+      "name": "tests",
+      "exit_code": 0
+    },
+    {
+      "name": "environment",
+      "exit_code": 0
+    },
+    {
+      "name": "inventory",
+      "exit_code": 2
+    },
+    {
+      "name": "synthetic_adapter_audit",
+      "exit_code": 0
+    }
+  ],
+  "blockers": [
+    "official_validation_data_not_received",
+    "official_model_id_and_revision_unconfirmed",
+    "official_output_contract_not_received",
+    "official_data_adapter_and_business_group_audit_not_validated",
+    "specified_27b_model_and_quantization_resource_test_not_performed"
+  ],
+  "local_report_hashes": {
+    "g0_status.json": "cac196e53731b7de682b32950a75d6cd8e4638e7f82e6cb5dd0ec79e6046fe51",
+    "environment.json": "f059b5fdfbad140557eb955d8dc48c8561812ba03fd5e77f5a47ad2e9042af46",
+    "inventory.json": "ac41952b640ba8e9ef936070e4022d6200e288ce22a5f338820f0b36234da0d5",
+    "synthetic_adapter_audit.json": "d640b1966522f1da99d4473c80b5c40a32b627bd207783f3b5802f3486bfa6d6",
+    "tests.xml": "ef14497600d703da46a8eced800f86943f25aa555b436d0ffb769b2957d89823"
+  },
+  "limitations": [
+    "Small kernel probes only; no 27B model, quantization kernels or long context tested",
+    "Timings include initial kernel overhead; not a throughput benchmark"
+  ]
+}
